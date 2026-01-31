@@ -1,6 +1,6 @@
-# 📚 Library Management System
+# Library Management System
 
-## 🚀 Docker ile Kurulum ve Çalıştırma
+##  Docker ile Kurulum ve Çalıştırma
 
 Projeyi ayağa kaldırmak için sırasıyla aşağıdaki adımları uygulayın:
 
@@ -26,13 +26,13 @@ Durdurmak ve temizlemek için:
 docker compose down -v
 ```
 
-## 🔗 Erişim
+##  Erişim
 
 Uygulama açıldığında API test arayüzüne buradan ulaşabilirsiniz:
 
 **Swagger UI:** http://localhost:8080/swagger-ui/index.html
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ### Books (`/api/books`)
 
@@ -60,7 +60,7 @@ Uygulama açıldığında API test arayüzüne buradan ulaşabilirsiniz:
 | GET | `/api/publishers` | Tüm yayınevlerini listele |
 | GET | `/api/publishers/with-books?limit=2` | Yayınevlerini kitaplarıyla birlikte getir |
 
-## 📝 Örnek Kayıt Verileri (POST /api/books)
+##  Örnek Kayıt Verileri (POST /api/books)
 
 Aşağıdaki JSON verilerini Swagger veya Postman üzerinden direkt kullanabilirsiniz.
 
